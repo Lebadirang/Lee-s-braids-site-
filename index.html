@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lee's Braids</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fffaf5;
+      color: #333;
+    }
+    header {
+      background-color: #2d2d2d;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #e0c5b1;
+      padding: 10px;
+      flex-wrap: wrap;
+    }
+    nav a {
+      margin: 10px 15px;
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 20px;
+    }
+    .services, .booking, .contact {
+      margin-top: 30px;
+    }
+    .service-list {
+      background-color: #f3e3d3;
+      padding: 15px;
+      border-radius: 10px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    form input, form select, form textarea {
+      margin-bottom: 15px;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    button {
+      background-color: #d8a373;
+      color: #fff;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #2d2d2d;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Lee's Braids Logo" width="150">
+    <h1>Lee's Braids</h1>
+    <p>Housecall hair services with elegance and care</p>
+  </header>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#booking">Book Appointment</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="home">
+    <h2>Welcome to Lee's Braids</h2>
+    <p>Specializing in braids, locs, twists, and more — all in the comfort of your home!</p>
+  </section>
+
+  <section id="services" class="services">
+    <h2>Services</h2>
+    <div class="service-list">
+      <p><strong>Knotless Braids</strong></p>
+      <p><strong>Box Braids</strong></p>
+      <p><strong>Twists</strong></p>
+      <p><strong>Bohemian Braids</strong></p>
+      <p><strong>Faux Locs</strong> (Curly Pop, Butterfly, French Curls)</p>
+      <p><strong>Phondo</strong></p>
+      <p>House call fee: R100 + transport</p>
+    </div>
+  </section>
+
+  <section id="booking" class="booking">
+    <h2>Book Your Appointment</h2>
+    <form action="https://formspree.io/f/xnqepnlj" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <select name="service">
+        <option value="Knotless Braids">Knotless Braids</option>
+        <option value="Box Braids">Box Braids</option>
+        <option value="Twists">Twists</option>
+        <option value="Bohemian Braids">Bohemian Braids</option>
+        <option value="Faux Locs">Faux Locs</option>
+        <option value="Phondo">Phondo</option>
+      </select>
+      <input type="date" name="date" required />
+      <select name="time_slot">
+        <option value="9am-12pm">9 AM - 12 PM</option>
+        <option value="12pm-4pm">12 PM - 4 PM</option>
+        <option value="4pm-7pm">4 PM - 7 PM</option>
+      </select>
+      <textarea name="message" placeholder="Additional details (e.g., location)" rows="3"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>WhatsApp: 0609520387</p>
+    <p>Email: nthitelebadirang@gmail.com</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Lee's Braids. All rights reserved.</p>
+  </footer>
+</body>
+  </html><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lee's Braids</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fffaf5;
+      color: #333;
+    }
+    header {
+      background-color: #2d2d2d;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #e0c5b1;
+      padding: 10px;
+      flex-wrap: wrap;
+    }
+    nav a {
+      margin: 10px 15px;
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 20px;
+    }
+    .services, .booking, .contact {
+      margin-top: 30px;
+    }
+    .service-list {
+      background-color: #f3e3d3;
+      padding: 15px;
+      border-radius: 10px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    form input, form select, form textarea {
+      margin-bottom: 15px;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    button {
+      background-color: #d8a373;
+      color: #fff;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #2d2d2d;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Lee's Braids Logo" width="150">
+    <h1>Lee's Braids</h1>
+    <p>Housecall hair services with elegance and care</p>
+  </header>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#booking">Book Appointment</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="home">
+    <h2>Welcome to Lee's Braids</h2>
+    <p>Specializing in braids, locs, twists, and more — all in the comfort of your home!</p>
+  </section>
+
+  <section id="services" class="services">
+    <h2>Services</h2>
+    <div class="service-list">
+      <p><strong>Knotless Braids</strong></p>
+      <p><strong>Box Braids</strong></p>
+      <p><strong>Twists</strong></p>
+      <p><strong>Bohemian Braids</strong></p>
+      <p><strong>Faux Locs</strong> (Curly Pop, Butterfly, French Curls)</p>
+      <p><strong>Phondo</strong></p>
+      <p>House call fee: R100 + transport</p>
+    </div>
+  </section>
+
+  <section id="booking" class="booking">
+    <h2>Book Your Appointment</h2>
+    <form action="https://formspree.io/f/xnqepnlj" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <select name="service">
+        <option value="Knotless Braids">Knotless Braids</option>
+        <option value="Box Braids">Box Braids</option>
+        <option value="Twists">Twists</option>
+        <option value="Bohemian Braids">Bohemian Braids</option>
+        <option value="Faux Locs">Faux Locs</option>
+        <option value="Phondo">Phondo</option>
+      </select>
+      <input type="date" name="date" required />
+      <select name="time_slot">
+        <option value="9am-12pm">9 AM - 12 PM</option>
+        <option value="12pm-4pm">12 PM - 4 PM</option>
+        <option value="4pm-7pm">4 PM - 7 PM</option>
+      </select>
+      <textarea name="message" placeholder="Additional details (e.g., location)" rows="3"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>WhatsApp: 0609520387</p>
+    <p>Email: nthitelebadirang@gmail.com</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Lee's Braids. All rights reserved.</p>
+  </footer>
+</body>
+</html>
